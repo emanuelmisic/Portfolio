@@ -13,6 +13,17 @@ function App() {
           <p>Country: HR</p>
         </div>
       </header>
+      <nav className="navbar">
+        <p>Go To:</p>
+        <ul>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 }
