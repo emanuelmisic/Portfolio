@@ -33,6 +33,7 @@ function App() {
           CONTACTS COMPONENT
         </section>
       </main>
+      <footer>FOOTER</footer>
     </div>
   );
 }
