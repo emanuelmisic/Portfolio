@@ -24,6 +24,15 @@ function App() {
           </li>
         </ul>
       </nav>
+      <main>
+        <section className="skills">SKILLS COMPONENT</section>
+        <section className="projects" id="projects">
+          PROJECTS COMPONENT
+        </section>
+        <section className="contact" id="contact">
+          CONTACTS COMPONENT
+        </section>
+      </main>
     </div>
   );
 }
