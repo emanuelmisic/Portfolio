@@ -28,15 +28,15 @@ function App() {
         </ul>
       </nav>
       <main>
+        <h2>Skills:</h2>
         <section className="skills">
-          <h2>Skills:</h2>
           <Skill />
           <Skill />
           <Skill />
           <Skill />
         </section>
+        <h2>Projects:</h2>
         <section className="projects" id="projects">
-          <h2>Projects:</h2>
           <Project />
           <Project />
           <Project />

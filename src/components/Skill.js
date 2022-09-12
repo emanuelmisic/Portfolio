@@ -1,5 +1,9 @@
 function Skill() {
-  return <h3>Skill</h3>;
+  return (
+    <div>
+      <img src="" alt="skill" />
+    </div>
+  );
 }
 
 export default Skill;
