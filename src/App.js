@@ -1,9 +1,12 @@
+import Skill from './components/Skill';
+import Project from './components/Project';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div className="left">
-          <p>Years old: 24</p>
+          <p>Age: 24</p>
         </div>
         <div className="center">
           <h1>EMANUEL</h1>
@@ -25,9 +28,19 @@ function App() {
         </ul>
       </nav>
       <main>
-        <section className="skills">SKILLS COMPONENT</section>
+        <section className="skills">
+          <h2>Skills:</h2>
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+        </section>
         <section className="projects" id="projects">
-          PROJECTS COMPONENT
+          <h2>Projects:</h2>
+          <Project />
+          <Project />
+          <Project />
+          <Project />
         </section>
         <section className="contact" id="contact">
           CONTACTS COMPONENT
